@@ -252,9 +252,9 @@ Plug 'tweekmonster/django-plus.vim'
 Plug 'luochen1990/rainbow'
 " post install (yarn install | npm install) then load plugin only for editing supported files
 " 貌似不能和django项目配合工作
-Plug 'prettier/vim-prettier', {
-  \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml'] }
+" Plug 'prettier/vim-prettier', {
+"   \ 'do': 'yarn install',
+"   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml'] }
 call plug#end()
 
 " 主题颜色
