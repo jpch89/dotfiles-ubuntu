@@ -390,3 +390,7 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 
 " 彩虹括号
 let g:rainbow_active = 1
+
+" 高度
+let g:Lf_WindowHeight = 0.25
+
