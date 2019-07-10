@@ -284,7 +284,7 @@ let g:pymode_python = 'python3'
 " 不显示错误信息窗口
 let g:pymode_lint_cwindow = 0
 " 忽略e501 错误，超过 79 个字符的错误
-let g:pymode_lint_ignore = ["E501"]
+let g:pymode_lint_ignore = ["E501", "W0401"]
 " 保存和保存退出时自动格式化代码
 if has("autocmd")
   " 给当前缓存绑定快捷键 local mapping just for the active buffer
