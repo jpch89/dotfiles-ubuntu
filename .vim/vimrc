@@ -363,10 +363,10 @@ let g:airline_powerline_fonts = 1
 " endfunction
 
 
-" Use <C-f> for trigger snippet expand.
-imap <C-f> <Plug>(coc-snippets-expand)
-" Use <C-d> for jump to next placeholder
-let g:coc_snippet_next = '<c-d>'
+" Use <C-l> for trigger snippet expand.
+imap <C-l> <Plug>(coc-snippets-expand)
+" Use <C-f> for jump to next placeholder
+let g:coc_snippet_next = '<c-f>'
 " 删除跳转到前一个的快捷键
 let g:coc_snippet_prev = ''
 
