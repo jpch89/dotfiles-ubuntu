@@ -17,3 +17,4 @@
 	in = init
 	ra = remote add
 	tg = tag
+	po = push origin
