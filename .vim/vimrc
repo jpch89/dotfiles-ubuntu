@@ -317,6 +317,8 @@ autocmd VimEnter *
 let g:Lf_ReverseOrder = 1
 " 自动查找项目根目录
 let g:Lf_WorkingDirectoryMode = 'Ac'
+" 高度
+let g:Lf_WindowHeight = 0.25
 
 " tagbar
 noremap tb :TagbarToggle<cr>
@@ -390,7 +392,4 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 
 " 彩虹括号
 let g:rainbow_active = 1
-
-" 高度
-let g:Lf_WindowHeight = 0.25
 
