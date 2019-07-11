@@ -1,0 +1,18 @@
+[core]
+	autocrlf = input
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	aa = add -A
+	ad = add
+	cm = commit -m
+	cl = clone --recursive
+	ps = push
+	pl = pull
+	cb = checkout -b
+	rv = remote -v
+	in = init
+	ra = remote add
