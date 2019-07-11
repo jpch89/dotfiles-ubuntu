@@ -16,3 +16,4 @@
 	rv = remote -v
 	in = init
 	ra = remote add
+	tg = tag
