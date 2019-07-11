@@ -364,6 +364,8 @@ let g:airline_powerline_fonts = 1
 "   return !col || getline('.')[col - 1]  =~# '\s'
 " endfunction
 
+" 跳转到定义
+" nmap <silent> gd <Plug>(coc-definition)
 
 " Use <C-l> for trigger snippet expand.
 imap <C-l> <Plug>(coc-snippets-expand)
