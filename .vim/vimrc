@@ -225,7 +225,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
 " 与 python-mode 插件冲突
-" Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-commentary'
 Plug 'kana/vim-textobj-user'
@@ -386,8 +386,8 @@ let g:coc_snippet_prev = ''
 " emmet
 let g:user_emmet_install_global = 0
 autocmd FileType html,css,htmldjango EmmetInstall
-" ctrl-k 前导加逗号可补全，加 n 跳转
-let g:user_emmet_leader_key='<c-k>'
+" ctrl-e 前导加逗号可补全，加 n 跳转，e for emmet
+let g:user_emmet_leader_key='<c-e>'
 
 " supertab
 let g:SuperTabDefaultCompletionType = "<c-n>"
