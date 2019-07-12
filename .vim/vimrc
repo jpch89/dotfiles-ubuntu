@@ -225,19 +225,19 @@ Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
 " 与 python-mode 插件冲突
-Plug 'Xuyuanp/nerdtree-git-plugin'
+" Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-commentary'
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-indent'
-Plug 'jpch89/python-mode', { 'for': 'python', 'branch': 'develop' }
+Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 Plug 'Yggdroot/LeaderF'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 " clevertab（coc.vim可以直接通过配置项达到此效果）
 " Plug 'neitanod/vim-clevertab'
 " 在 Vim 里运行终端的插件，待观察
-Plug 'kassio/neoterm'
+" Plug 'kassio/neoterm'
 Plug 'tpope/vim-fugitive'
 Plug 'majutsushi/tagbar'
 " 仅使用 coc-json, coc-html, coc-css
@@ -369,8 +369,8 @@ let g:airline_powerline_fonts = 1
 
 " Use <C-l> for trigger snippet expand.
 imap <C-l> <Plug>(coc-snippets-expand)
-" Use <C-f> for jump to next placeholder
-let g:coc_snippet_next = '<c-f>'
+" Use <C-l> for jump to next placeholder
+let g:coc_snippet_next = '<c-l>'
 " 删除跳转到前一个的快捷键
 let g:coc_snippet_prev = ''
 
