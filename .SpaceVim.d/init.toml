@@ -52,6 +52,18 @@ name = 'colorscheme'
 [[layers]]
 name = 'chinese'
 
+[[layers]]
+name = 'git'
+
+[[layers]]
+name = 'tools'
+
+[[layers]]
+name = 'leaderf'
+
+[[layers]]
+name = 'chat'
+
 [[custom_plugins]]
 name = 'tweekmonster/django-plus.vim'
 merged = false
