@@ -373,6 +373,8 @@ imap <C-l> <Plug>(coc-snippets-expand)
 let g:coc_snippet_next = '<c-l>'
 " 删除跳转到前一个的快捷键
 let g:coc_snippet_prev = ''
+" 当补全完成时，自动关闭预览窗口
+autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
 
 " coc-autopairs
 " 禁止在 vim 文件中的双引号配对行为，这会影响到注释
